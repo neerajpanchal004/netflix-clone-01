@@ -1,0 +1,261 @@
+* {
+    margin: 0px;
+}
+
+header {
+    border-bottom: 10px solid gray;
+}
+
+.navicon {
+    display: flex;
+    justify-content: flex-end;
+    background-image: url("head-image.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+/* .navicon p{
+    text-align: center;
+    padding-top: 100px;
+    margin-right: 500px;
+    
+} */
+.iconlast {
+    display: flex;
+    /* align-items: center;
+     */
+    background-color: rgba(28, 26, 26, 0.500);
+    width: 100%;
+    color: white;
+    flex-wrap: wrap;
+
+}
+
+.iconlast h1 {
+    padding-right: 14em;
+    color: red;
+    font-size: 40px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.iconlast a {
+    text-decoration: none;
+    background-color: rgb(222, 10, 10);
+    width: 7.5%;
+    height: 4%;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 15px;
+    padding-top: 10px;
+
+}
+.cchange:hover{
+    background-color: rgba(222, 10, 10,0.8);
+}
+
+.iconlast select {
+    margin-right: 20px;
+    margin-top: 15px;
+    height: 5.5%;
+    width: 8%;
+    color: white;
+    border-radius: 2px;
+    border: 2px solid white;
+    background-color: rgba(28, 26, 26, 0.875);
+}
+.center{
+    text-align: center;
+}
+#centerp1{
+    /* padding-top: 0px; */
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px; 
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+#centerp2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size:30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, 'Arial Narrow Bold', sans-serif
+}
+#centerp3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+
+/* HEADER COMPLETE */
+/* MAI HU MAIN */
+
+/* PORTION 2 */
+.p2 {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    color: white;
+    background-color: black;
+    padding: 70px 130px 70px 130px;
+    border-bottom: 10px solid gray;
+
+}
+
+.hed2 h1 {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hed2 p {
+    font-size: 26px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#tv2 {
+    width: 110%;
+    height: 95%;
+}
+
+/* PORTION 3 */
+.p3 {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    color: white;
+    background-color: black;
+    padding: 70px 130px 70px 130px;
+    border-bottom: 10px solid gray;
+
+}
+
+.hed3 h1 {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hed3 p {
+    font-size: 26px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#tv3 {
+    width: 110%;
+    height: 95%;
+}
+
+/* PORTION 4 */
+
+/*same ass porion 2  */
+/* PORTION 5 */
+
+/* same ass portion 3 */
+
+/* PORTION 6 */
+
+
+#aq {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    padding-top: 55px;
+    padding-bottom: 35px;
+}
+
+/* question box */
+.faq {
+    padding-bottom: 60px;
+    border-bottom: 10px solid gray;
+    background-color: black;
+}
+
+.ques {
+    /* align-items: center; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.ques1 {
+    height:1.7rem ;
+    width: 70%;
+    background-color: rgb(46, 44, 44);
+    padding: 20px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 25px;
+}
+.ques1:hover{
+    background-color:rgba(46, 44, 44, 0.7);
+}
+
+.last {
+    margin-bottom:20px;
+}
+
+.ebut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:; */
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ebut input {
+    height: 0.65rem;
+    width: 28%;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.ebut button {
+    background-color: red;
+    color: white;
+    height: 3.3rem;
+    width: 15%;
+    border-radius: 8px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+/* FOOTER START */
+.call {
+    padding: 50px 0px 40px 150px;
+    color: white;
+    background-color: black;
+}
+
+.foot {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+
+}
+
+.f a {
+    color: white;
+    background-color: black;
+}
+
+.f {
+    padding: 0px 0px 20px 110px;
+}
+/* make responsive */
